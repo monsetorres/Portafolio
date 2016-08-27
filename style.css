@@ -1,0 +1,188 @@
+body{
+	background-image: url(img/Fondo.jpg);
+   	background-size: cover; /*imagen proporcionada a la base*/
+   	background-position: center center;
+   	background-repeat: no-repeat;
+   	background-attachment: fixed;
+   	background-color: #CDCDCD;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(img/Fondo.jpg);
+  }
+}
+
+nav { /*Espacio total el menu*/
+	position: relative;
+	width: 527px; 
+	height: 34px;
+	margin: 16px auto; 
+	font-family:'Open+Sans', sans-serif;
+	border-top: 1px solid #CDCDCD;
+	border-bottom:#CDCDCD;
+	border-bottom-style: double;
+}
+
+.menu{
+	margin: auto;
+	position: absolute;
+	list-style: none; 
+	padding: auto;
+}
+
+.menu li {
+	padding: 8px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #FBFCFC;
+	font-size: 0.79em;
+	letter-spacing:0.05em;
+	text-align: center;
+}
+
+.menu li ul {
+	position: fixed;
+	padding: 0;
+	height: 0; 
+	overflow: hidden; 
+}
+
+ul.menu li:hover a {	
+	font-family:'Open+Sans', sans-serif;
+	color: #1BCDBB; 
+	padding:0;
+	padding-bottom: 6px;
+	border-bottom: 3px solid #1BCDBB;
+}
+
+ul.menu li:hover ul {;
+	margin:4px auto;
+	height: auto;
+	padding-top:4px;
+	border-bottom: 1px solid #FBFCFC;
+}
+
+ul.menu li:hover ul li a {
+	font-family:'Open+Sans', sans-serif;
+	color: #FBFCFC; 
+	background: transparent; 
+	border:none;
+	text-decoration: none;
+}
+
+ul.menu li:hover ul li a:hover {
+	padding: 0;
+	text-decoration: none;
+	color: #1BCDBB;
+}
+
+h1{ /*Monserrat Torres*/
+	font-family: 'Dosis', sans-serif;
+	font-weight:lighter;
+	font-size:4em;
+	letter-spacing:0.1em;
+	color: #FBFCFC;
+	line-height: 1em;
+	text-align: center;
+	margin-top: 262px;
+	margin-left: 124px;
+	margin-right: 124px;
+	padding-bottom: 8px;
+	border-bottom: 3px solid #FBFCFC;
+}
+
+h3{ /*Diseñadora Gráfica*/
+	font-family: 'Dosis', sans-serif;
+	font-weight:bold;
+	font-size:1.5em;
+	letter-spacing:0.1em;
+	color: #FBFCFC;
+	text-align: center;
+	margin-top: -32px;
+}
+
+@media only screen and (max-width: 767px) {
+	h1{ /*Monserrat Torres*/
+		font-family: 'Dosis', sans-serif;
+		font-size:2.5em;
+		font-weight:lighter;
+		line-height: 1em;
+		letter-spacing:0.1em;
+		color: #FBFCFC;
+		text-align: center;
+		margin-top: 200px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding-bottom:8px;
+		border-bottom: 3px solid #FBFCFC;
+	}
+
+	h3{ /*Diseñadora Gráfica*/
+		font-family: 'Dosis', sans-serif;
+		font-weight:bold;
+		font-size:1em;
+		letter-spacing:0.1em;
+		padding-top: 4px;
+		color: #FBFCFC;
+		text-align: center;
+	}
+}	
+
+footer{
+	display: block;
+	position: absolute;
+	margin-top: 272px;
+	height: 232px;
+	width: 100%;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+#contacto{
+	width: 248px;
+	margin-right: 140px;
+	float: right;
+}
+
+h6{
+	font-size: 1.2em;
+	font-family: 'Dosis', sans-serif;
+	text-align:left;
+	border-bottom: 1px solid #FBFCFC;
+	color:#FBFCFC;
+}
+
+#contacto li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	color: #FBFCFC;
+}
+
+#contacto span{
+	font-size: 1.5em;
+    line-height: 1.5em;
+    padding-right: 16px;
+}
+
+#icon-at{
+	font-size: 1em;
+}
+
+#subfooter {
+	position: absolute;
+	height: 64px;
+	width: 100%;
+	padding-top: 264px;
+}
+
+#subfooter > p{
+	font-size: 0.6em;
+	font-family:'Open+Sans', sans-serif;
+	text-align: center;
+	color:#CDCDCD;
+}
