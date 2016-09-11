@@ -215,7 +215,7 @@ a{
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 272px;
+	margin-top: 160px;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
@@ -265,4 +265,5 @@ h6{
 	text-align: center;
 	color:#CDCDCD;
 }
+
 

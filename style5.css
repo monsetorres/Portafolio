@@ -1,0 +1,278 @@
+body{
+	background: #FBFCFC;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  margin: -8px auto;
+}
+
+ul.menu {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 32px 0px 32px 0px;
+  border: 0;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 3px double #CDCDCD;
+}
+
+ul.menu ul {
+  list-style: none;
+  display: none;
+}
+
+ul.menu li{
+  display: inline-block;
+  margin: 0 8px 0px 8px;
+  padding: 4px 0px 4px 0px;
+}
+
+ul.menu li a {
+  font-family:'Open+Sans', sans-serif;
+  display: block;
+  margin: 0;
+  padding: 0 4px 4px 4px;
+  text-decoration: none;
+  font-size: 12.5px;
+  letter-spacing:0.06em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+ul.menu li ul {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 3;
+}
+
+ul.menu ul a {
+  color: #1BCDBB;
+}
+
+ul.menu li:hover a {
+  color: #1BCDBB;
+  border-bottom: 3px solid #1BCDBB;
+}
+
+ul.menu li:hover ul {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 16px 0px 16px 0px;
+  border: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+ul.menu li:hover ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family:'Open+Sans', sans-serif;
+  color: #666666; 
+  border:none;
+}
+
+ul.menu li:hover ul li a:hover {
+  	color: #1BCDBB;
+}
+
+a:link, a:active{
+  color:#1BCDBB;
+}
+
+body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
+	border-bottom: 3px solid #1BCDBB;
+}
+
+h2{
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size:3em;
+	font-weight:lighter;
+	color: #666666;
+	text-align: center;
+	padding-top:16px;
+	display: block;
+	border-bottom: 3px solid #666666;
+}
+
+h3{
+	font-family:'Dosis', sans-serif;
+	font-size: 1.8em;
+	font-weight:normal;
+	border-bottom: 1px solid #666666;
+	text-align:left;
+	color: #666666;
+	margin:64px 216px 0 216px;
+}
+
+/* Listado navegable*/
+
+.accordion {
+    margin:32px 744px 32px 216px;
+    padding:0;
+}
+.accordion ul {
+    list-style:none;
+    margin:0 32px 0 32px;
+    padding:0;    
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+	padding: 16px 0 16px 0;
+	margin: 0;
+	text-decoration: none;
+    font-family:'Dosis', sans-serif; 
+    display:block;
+    font-size:1.4em;
+    color: #666666;
+    cursor:pointer;
+    border-bottom:1px solid #CDCDCD;
+}
+
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    color:#666666;
+}
+.accordion .content {
+    padding:0;
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+
+.vertical ul li {
+    margin:0px 0px 16px 0px;
+}
+.vertical ul li label {
+    padding:0px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+	color: #1BCDBB;
+    border-bottom:3px solid #1BCDBB;
+}
+.vertical ul li .content {
+	margin: 0;
+	padding:0px;
+    height:0px;
+    border-top:0;
+    transition: all .5s ease-out;
+}
+.vertical [type=checkbox]:checked ~ label ~ .content {
+    height:280px;
+}
+
+.minigaleria{
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 32px 0px 24px 0px;
+	border-top:1px solid #CDCDCD;
+	border-bottom:1px solid #CDCDCD;
+}
+
+.minigaleria .imgi{
+	padding: 0px 16px 0px 16px;
+	display: inline-block;
+	float: left;	
+	border-right: 1px dashed #CDCDCD;
+	border-left: 1px dashed #CDCDCD;
+}
+
+.minigaleria .imgd{
+	margin:0 0 8px 0;
+	padding: 0px 16px 0px 16px;
+	display: inline-block;
+	float: left;
+	border-right: 1px dashed #CDCDCD;
+}
+
+hr{
+    height: 1px;
+    border: 0;
+    background-color: #CDCDCD;
+    width: 25%;
+    text-align: center;
+}
+/* TERMINO del Listado navegable*/
+
+.zoomsdi{
+	margin: -184px 216px 0 0;
+	padding:0;
+	float: right;
+	list-style: none;
+	height: 600px;
+	overflow-y: hidden;
+}
+
+.timg li{
+	margin: 216px 0;
+	padding:216px 0;
+	line-height: 216px;
+}
+
+footer{
+	display: block;
+	position: absolute;
+	margin-top: 416px;
+	height: 232px;
+	width: 100%;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+#contacto{
+	width: 248px;
+	margin-right: 140px;
+	float: right;
+}
+
+h6{
+	font-size: 1.2em;
+	font-family: 'Dosis', sans-serif;
+	text-align:left;
+	border-bottom: 1px solid #666666;
+	color:#666666;
+}
+
+#contacto li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	color: #666666;
+}
+
+#contacto span{
+	font-size: 1.5em;
+    line-height: 1.5em;
+    padding-right: 16px;
+}
+
+#icon-at{
+	font-size: 1em;
+}
+
+#subfooter {
+	position: absolute;
+	height: 64px;
+	width: 100%;
+	padding-top: 264px;
+}
+
+#subfooter > p{
+	font-size: 0.6em;
+	font-family:'Open+Sans', sans-serif;
+	text-align: center;
+	color:#CDCDCD;
+}

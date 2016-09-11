@@ -100,8 +100,10 @@ h2{
 	color: #666666;
 	text-align: center;
 	padding-top:16px;
+	padding-bottom: 8px;
 	display: block;
 	border-bottom: 3px solid #666666;
+	line-height: 48px;
 }
 
 h3{
@@ -115,9 +117,8 @@ h3{
 
 #descripcion{
 	margin-left: 216px;
-	margin-right: 92px;
-	width: 496px;
-	display: inline-block;
+	margin-right: 216px;
+	margin-top: 32px;
 	float: left;
 }
 
@@ -141,10 +142,14 @@ h4{
 
 
 .datos{
-	float: left;
+	float: right;
+	position: relative;
 	color: #666666;
-	width:312px;
 	margin-bottom: 32px;
+	display: inline-block;
+	margin-right: 216px;
+	width: 340px;
+	margin-top: -412px;
 }
 
 .datos li{
@@ -175,10 +180,16 @@ h4{
 	line-height: 1.6em;
 }
 
+#imgmedia{
+	margin:32px 216px 0;
+	display: inline-block;
+	position: relative;
+}
+
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 272px;
+	margin-top: 640px;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
