@@ -140,7 +140,6 @@ h4{
 	border-bottom:1px solid #CDCDCD;
 }
 
-
 .datos{
 	float: right;
 	position: relative;
@@ -149,7 +148,7 @@ h4{
 	display: inline-block;
 	margin-right: 216px;
 	width: 340px;
-	margin-top: -412px;
+	margin-top: -384px;
 }
 
 .datos li{
@@ -187,9 +186,11 @@ h4{
 }
 
 #imgmedia{
-	margin:32px 216px 0;
+	margin:0px 216px 0;
 	display: inline-block;
 	position: relative;
+	width: 496px;
+	height: 352px;
 }
 
 footer{
