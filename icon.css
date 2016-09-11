@@ -69,7 +69,7 @@
 .icon-download:before {
   content: "\e907";
 }
-.icon-time:before {
+#icon-time:before {
   content: "\e908";
 }
 .icon-date:before {

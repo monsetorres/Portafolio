@@ -201,8 +201,9 @@ h3{
 	color:#1BCDBB;
 }
 
-.icon-time{
-	text-align:center;
+#icon-time{
+	padding-left: 4px;
+	padding-right: 10px;
 }
 
 #icon-next{

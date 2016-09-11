@@ -171,6 +171,12 @@ h4{
 	padding-left: 4px;
 	font-size: 0.8em;
 }
+
+#icon-time{
+	padding-left: 4px;
+	padding-right: 10px;
+}
+
 .datos ul li ul{
 		padding-top: 8px;
 }
