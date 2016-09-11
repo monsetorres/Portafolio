@@ -103,16 +103,6 @@ body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a
 	border-bottom: 3px solid #1BCDBB;
 }
 
-
-
-
-
-
-
-
-
-
-
 h1{ /*Monserrat Torres*/
 	font-family: 'Dosis', sans-serif;
 	font-weight:lighter;
@@ -199,6 +189,13 @@ h6{
 	font-size: 1.5em;
     line-height: 1.5em;
     padding-right: 16px;
+}
+
+#icon-mail{
+	font-size: 1.5em;
+    line-height: 1.5em;
+   	margin-left: -6px;
+   	margin-right: -4px;
 }
 
 #icon-at{

@@ -222,6 +222,13 @@ h6{
     padding-right: 16px;
 }
 
+#icon-mail{
+	font-size: 1.5em;
+    line-height: 1.5em;
+   	margin-left: -6px;
+   	margin-right: -4px;
+}
+
 #icon-at{
 	font-size: 1em;
 }

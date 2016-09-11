@@ -57,7 +57,7 @@
 .icon-tools:before {
   content: "\e903";
 }
-.icon-mail:before {
+#icon-mail:before {
   content: "\e904";
 }
 .icon-map:before {
