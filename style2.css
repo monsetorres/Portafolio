@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+
 body{
 	background: #FBFCFC;
 }
@@ -92,7 +98,6 @@ body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a
 	border-bottom: 3px solid #1BCDBB;
 }
 
-
 h2{
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
@@ -100,7 +105,7 @@ h2{
 	font-weight:lighter;
 	color: #666666;
 	text-align: center;
-	padding-top:16px;
+	padding-top:32px;
 	display: block;
 	border-bottom: 3px solid #666666;
 }
@@ -108,7 +113,7 @@ h2{
 #galeria{
 	text-decoration: none;
 	display: inline-block;
-	margin: 0 32px;
+	margin:64px 32px;
 	padding-bottom: 32px;
 	border-top:1px solid #CDCDCD;
 	border-bottom:1px solid #CDCDCD;
@@ -146,7 +151,6 @@ img{
 	border-bottom: 3px solid #1BCDBB;
 	font-family:'Open+Sans:400', sans-serif;
 	font-size: 0.75em;
-	line-height: 0.2em;
 	text-align:right;
 	margin-left:16px;
 	color: #1BCDBB;
@@ -165,7 +169,6 @@ img{
 
 	font-family:'Open+Sans:400', sans-serif;
 	font-size: 0.75em;
-	line-height: 0.2em;
 	text-align:right;
 	padding-right:8px;
 	margin-left: 16px;
@@ -184,38 +187,50 @@ a{
 .texto {
 	font-family:'Open+Sans:300', sans-serif;
 	font-size: 0.75em;
-	line-height: 0.2em;
 	text-align:right;
+	margin:16px 0;
 	padding-right:8px;
+	padding-bottom: 4px;
 	color: #666666;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 	#galeria{
-		margin: auto;
-	}
+		margin: 32px 92px 0 92px;
+}
 
-	#espaciouno {
-		border:none;
+	.espaciolateral, 
+	#espaciocentral{
+		border: none;
+		position: relative;
+		display: block;
 		padding:0;
+		margin-bottom: 32px;
+		text-align: center;
+		width: 100%;
 	}	
 
-	#imguno{
-		width:278px;
-		height:226px;
-	}	
-
-	#espaciouno:hover #imguno {
-		width:292px;
-		height:226px;
+	.texto{
+		margin:16px 92px 0 222px;
+		padding: 
 	}
+
+#espaciocentral:hover .texto{
+	padding-right:8px;
+	margin-left: 100px;
+}
+.espaciolateral:hover .texto{
+	padding-right:8px;
+	margin-left: 100px;
+}
+
 }
 
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 160px;
+	margin-top: 92px;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
@@ -231,8 +246,12 @@ h6{
 	font-size: 1.2em;
 	font-family: 'Dosis', sans-serif;
 	text-align:left;
-	border-bottom: 1px solid #666666;
+	border-bottom: 1px solid #CDCDCD;
 	color:#666666;
+}
+
+#contacto ul{
+	margin: 32px 32px 0;
 }
 
 #contacto li{
@@ -240,6 +259,7 @@ h6{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
 	color: #666666;
+	line-height: 0.5em;
 }
 
 #contacto span{
@@ -272,5 +292,3 @@ h6{
 	text-align: center;
 	color:#CDCDCD;
 }
-
-

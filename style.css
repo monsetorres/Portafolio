@@ -1,3 +1,8 @@
+*{
+	 margin: 0;
+     padding: 0;
+}
+
 body{
 	background-image: url(img/Fondo.jpg);
    	background-size: cover; /*imagen proporcionada a la base*/
@@ -7,7 +12,7 @@ body{
    	background-color: #CDCDCD;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   body {
     background-image: url(img/Fondo.jpg);
   }
@@ -111,7 +116,7 @@ h1{ /*Monserrat Torres*/
 	color: #FBFCFC;
 	line-height: 1em;
 	text-align: center;
-	margin-top: 262px;
+	margin-top: 224px;
 	margin-left: 248px;
 	margin-right: 248px;
 	padding-bottom: 8px;
@@ -125,10 +130,10 @@ h3{ /*Diseñadora Gráfica*/
 	letter-spacing:0.1em;
 	color: #FBFCFC;
 	text-align: center;
-	margin-top: -32px;
+	margin-top: 8px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	h1{ /*Monserrat Torres*/
 		font-family: 'Dosis', sans-serif;
 		font-size:2.5em;
@@ -137,9 +142,7 @@ h3{ /*Diseñadora Gráfica*/
 		letter-spacing:0.1em;
 		color: #FBFCFC;
 		text-align: center;
-		margin-top: 200px;
-		margin-left: 8px;
-		margin-right: 8px;
+		margin: 320px 92px 0 92px;
 		padding-bottom:8px;
 		border-bottom: 3px solid #FBFCFC;
 	}
@@ -149,10 +152,10 @@ h3{ /*Diseñadora Gráfica*/
 		font-weight:bold;
 		font-size:1em;
 		letter-spacing:0.1em;
-		padding-top: 4px;
 		color: #FBFCFC;
 		text-align: center;
 	}
+
 }	
 
 footer{
@@ -176,6 +179,10 @@ h6{
 	text-align:left;
 	border-bottom: 1px solid #FBFCFC;
 	color:#FBFCFC;
+}
+
+#contacto ul{
+	margin: 32px 32px 0;
 }
 
 #contacto li{

@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background: #FBFCFC;
 }
@@ -99,7 +104,7 @@ h2{
 	font-weight:lighter;
 	color: #666666;
 	text-align: center;
-	padding-top:16px;
+	padding-top:32px;
 	display: block;
 	border-bottom: 3px solid #666666;
 }
@@ -111,10 +116,9 @@ h2{
 	background-attachment: fixed;
 	margin: auto;
 	display: block;
-	position: relative;
-	margin-left:216px;
-	margin-right:216px;
-	height:400px;
+	position: relative;	
+	margin:64px 216px 0px 216px;
+	height:448px;
 	padding-top:32px;
 }
 
@@ -126,9 +130,8 @@ h2{
 	margin: auto;
 	display: block;
 	position: relative;
-	margin-left:216px;
-	margin-right:216px;
-	height:400px;
+	margin:64px 216px 0px 216px;
+	height:448px;
 	padding-top:32px;
 }
 
@@ -140,9 +143,8 @@ h2{
 	margin: auto;
 	display: block;
 	position: relative;
-	margin-left:216px;
-	margin-right:216px;
-	height:400px;
+	margin:64px 216px 0px 216px;
+	height:448px;
 	padding-top:32px;
 }
 
@@ -165,7 +167,7 @@ h3{
 	font-family:'Opens+Sans', sans-serif;
 	color: #666666;
 	font-size: 1em;
-	padding:0px 32px 0px 32px;
+	padding:32px 32px 0px 32px;
 	line-height: 1.4em;
 }
 
@@ -173,18 +175,23 @@ h3{
 	float: left;
 	width: 496px;
 	height: 372px;
-	margin-top: 64px;
+	padding-top: 64px;
 	margin-left: 216px;
 }
 
 .datos{
 	float: left;
-	margin-top: 32px;
+	margin-top: 56px;
 	margin-left: 92px;
 	color: #666666;
 	width:312px;
 	padding: 0;
 	margin-bottom: 32px;
+}
+
+.datos ul {
+	margin: 32px 32px 0 32px;
+
 }
 
 .datos li{
@@ -212,11 +219,10 @@ h3{
 	font-size: 0.8em;
 }
 .datos ul li ul{
-	padding-top: 8px;
+	margin:8px 0px 0 16px;
 }
 
 .datos ul li ul li{
-	padding: 0 0 0 -16px;
 	font-size: 0.8em;
 	line-height: 1.6em;
 }
@@ -224,12 +230,12 @@ h3{
 /* Listado navegable de los pasos constructivos*/
  
 .accordion {
-    margin:521px 216px 32px 216px;
+    margin:512px 216px 32px 216px;
     padding:0;
 }
 .accordion ul {
     list-style:none;
-    margin:0 32px 0 32px;
+    margin:32px 32px 0 32px;
     padding:0;    
 }
 .accordion [type=radio], .accordion [type=checkbox] {
@@ -330,7 +336,7 @@ h3{
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 128px;
+	margin-top: 92px;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
@@ -346,8 +352,12 @@ h6{
 	font-size: 1.2em;
 	font-family: 'Dosis', sans-serif;
 	text-align:left;
-	border-bottom: 1px solid #666666;
+	border-bottom: 1px solid #CDCDCD;
 	color:#666666;
+}
+
+#contacto ul{
+	margin: 32px 32px 0;
 }
 
 #contacto li{
@@ -355,6 +365,7 @@ h6{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
 	color: #666666;
+	line-height: 0.5em;
 }
 
 #contacto span{

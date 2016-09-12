@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background: #FBFCFC;
 }
@@ -99,8 +104,7 @@ h2{
 	font-weight:lighter;
 	color: #666666;
 	text-align: center;
-	padding-top:16px;
-	padding-bottom: 8px;
+	padding:36px 0 6px 0;
 	display: block;
 	border-bottom: 3px solid #666666;
 	line-height: 48px;
@@ -116,23 +120,20 @@ h3{
 }
 
 #descripcion{
-	margin-left: 216px;
-	margin-right: 216px;
-	margin-top: 32px;
-	float: left;
+	margin:64px 216px 0 216px;
+	padding:0;
 }
 
 #descripcion p{
 	font-family:'Opens+Sans', sans-serif;
 	color: #666666;
 	font-size: 1em;
-	padding:0px 32px 0px 32px;
+	padding:32px 32px 0px 32px;
 	line-height: 1.4em;
 }
 
 h4{
-	margin-left: 32px;
-	margin-right: 32px;
+	margin:32px 32px -16px 32px;
 	font-family:'Dosis', sans-serif;
 	color: #666666;
 	font-size: 1.3em;
@@ -146,9 +147,11 @@ h4{
 	margin-left: 216px;
 	position: relative;
 	display: inline-block;
+	margin-top: 64px;
 }
 
 #imgmedia2{
+	margin-top: 64px;
 	width: 496px;
 	height: 372px;
 	margin-left: 216px;
@@ -166,9 +169,12 @@ h4{
 	display: inline-block;
 	margin-right: 216px;
 	width: 340px;
-	margin-top: -38px;
+	margin-top: 64px;
 }
+.datos ul {
+	margin: 32px 32px 0 32px;
 
+}
 .datos li{
 	font-family:'Opens+Sans', sans-serif;
 	font-size: 0.9em;
@@ -206,7 +212,7 @@ h4{
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 640px;
+	margin-top: 156px;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
@@ -222,8 +228,12 @@ h6{
 	font-size: 1.2em;
 	font-family: 'Dosis', sans-serif;
 	text-align:left;
-	border-bottom: 1px solid #666666;
+	border-bottom: 1px solid #CDCDCD;
 	color:#666666;
+}
+
+#contacto ul{
+	margin: 32px 32px 0;
 }
 
 #contacto li{
@@ -231,6 +241,7 @@ h6{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8em;
 	color: #666666;
+	line-height: 0.5em;
 }
 
 #contacto span{
@@ -263,4 +274,5 @@ h6{
 	text-align: center;
 	color:#CDCDCD;
 }
+
 
