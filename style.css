@@ -204,6 +204,15 @@ h6{
 		margin: auto;
 	}
 
+	body{
+		background-image: url(img/Fondo.jpg);
+   		background-size: cover; /*imagen proporcionada a la base*/
+   		background-position: center center;
+   		background-repeat: no-repeat;
+   		background-attachment: fixed;
+   		background-color: #CDCDCD;
+}
+
 	h1{ /*Monserrat Torres*/
 		font-family: 'Dosis', sans-serif;
 		font-size:3em;
