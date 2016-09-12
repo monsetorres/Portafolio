@@ -206,11 +206,6 @@ h6{
 
 	body{
 		background-image: url(img/Fondo.jpg);
-   		background-size: cover; /*imagen proporcionada a la base*/
-   		background-position: center center;
-   		background-repeat: no-repeat;
-   		background-attachment: fixed;
-   		background-color: #CDCDCD;
 }
 
 	h1{ /*Monserrat Torres*/
@@ -308,6 +303,9 @@ h6{
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+body{
+	background-image: url(img/Fondo.jpg);
+}
 	*{
 		margin: auto;
 	}
