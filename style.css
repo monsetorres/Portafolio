@@ -12,12 +12,6 @@ body{
    	background-color: #CDCDCD;
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-image: url(img/Fondo.jpg);
-  }
-}
-
 nav {
   position: relative;
   width: 100%;
@@ -133,35 +127,10 @@ h3{ /*Diseñadora Gráfica*/
 	margin-top: 8px;
 }
 
-@media only screen and (max-width: 768px) {
-	h1{ /*Monserrat Torres*/
-		font-family: 'Dosis', sans-serif;
-		font-size:2.5em;
-		font-weight:lighter;
-		line-height: 1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-		margin: 320px 92px 0 92px;
-		padding-bottom:8px;
-		border-bottom: 3px solid #FBFCFC;
-	}
-
-	h3{ /*Diseñadora Gráfica*/
-		font-family: 'Dosis', sans-serif;
-		font-weight:bold;
-		font-size:1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-	}
-
-}	
-
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 272px;
+	margin: 272px 0;
 	height: 232px;
 	width: 100%;
 	border-bottom: 1px solid #CDCDCD;
@@ -221,4 +190,197 @@ h6{
 	font-family:'Open+Sans', sans-serif;
 	text-align: center;
 	color:#CDCDCD;
+}
+
+
+/*-----------------------------------------------*/
+
+
+@media only screen and (max-width: 768px) {
+
+	 body {
+   	 	background-image: url(img/Fondo.jpg);
+  	}
+
+	h1{ /*Monserrat Torres*/
+		font-family: 'Dosis', sans-serif;
+		font-size:3em;
+		font-weight:lighter;
+		line-height: 1em;
+		letter-spacing:0.1em;
+		color: #FBFCFC;
+		text-align: center;
+		margin: 348px 92px 0 92px;
+		border-bottom: 3px solid #FBFCFC;
+	}
+
+	h3{ /*Diseñadora Gráfica*/
+		font-family: 'Dosis', sans-serif;
+		font-weight:bold;
+		font-size:1em;
+		letter-spacing:0.1em;
+		color: #FBFCFC;
+		text-align: center;
+	}
+
+	footer{
+	display: block;
+	position: absolute;
+	margin: 272px 0;
+	height: 232px;
+	width: 100%;
+	border-bottom: 1px solid #CDCDCD;
+	}
+
+	#contacto{
+		width: 248px;
+		margin-right: 92px;
+		float: right;
+	}
+
+	h6{
+		font-size: 1em;
+		font-family: 'Dosis', sans-serif;
+		text-align:left;
+		border-bottom: 1px solid #FBFCFC;
+		color:#FBFCFC;
+	}
+
+	#contacto ul{
+		margin: 32px 32px 0;
+	}
+
+	#contacto li{
+		list-style: none;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 0.6em;
+		color: #FBFCFC;
+	}
+
+	#contacto span{
+		font-size: 1.5em;
+    	line-height: 1.5em;
+    	padding-right: 16px;
+	}
+
+	#icon-mail{
+		font-size: 1.5em;
+    	line-height: 1.5em;
+   		margin-left: -4px;
+   		margin-right: -4px;
+	}
+
+	#icon-at{
+		font-size: 1em;
+	}
+
+	#subfooter {
+		position: absolute;
+		height: 64px;
+		width: 100%;
+		padding-top: 264px;
+	}
+
+	#subfooter > p{
+		font-size: 0.6em;
+		font-family:'Open+Sans', sans-serif;
+		text-align: center;
+		color:#CDCDCD;
+	}
+}
+
+
+
+/*-----------------------------------------------*/
+
+
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+
+	h1{ /*Monserrat Torres*/
+		font-family: 'Dosis', sans-serif;
+		font-size:2.5em;
+		font-weight:lighter;
+		line-height: 1em;
+		letter-spacing:0.1em;
+		color: #FBFCFC;
+		text-align: center;
+		margin: 128px 32px;
+		border-bottom: 3px solid #FBFCFC;
+	}
+
+	h3{ /*Diseñadora Gráfica*/
+		font-family: 'Dosis', sans-serif;
+		font-weight:bold;
+		font-size:1em;
+		letter-spacing:0.1em;
+		color: #FBFCFC;
+		text-align: center;
+		margin:-120px;
+	}
+
+	footer{
+	display: block;
+	position: absolute;
+	margin: 272px 0;
+	height: 232px;
+	width: 100%;
+	border-bottom: 1px solid #CDCDCD;
+	}
+
+	#contacto{
+		width: 248px;
+		margin:auto;
+		float: right;
+	}
+
+	h6{
+		font-size: 1em;
+		font-family: 'Dosis', sans-serif;
+		text-align:left;
+		border-bottom: 1px solid #FBFCFC;
+		color:#FBFCFC;
+	}
+
+	#contacto ul{
+		margin: 32px 32px 0;
+	}
+
+	#contacto li{
+		list-style: none;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 0.6em;
+		color: #FBFCFC;
+	}
+
+	#contacto span{
+		font-size: 1.5em;
+    	line-height: 1.5em;
+    	padding-right: 16px;
+	}
+
+	#icon-mail{
+		font-size: 1.5em;
+    	line-height: 1.5em;
+   		margin-left: -4px;
+   		margin-right: -4px;
+	}
+
+	#icon-at{
+		font-size: 1em;
+	}
+
+	#subfooter {
+		position: absolute;
+		height: 64px;
+		width: 100%;
+		padding-top: 264px;
+	}
+
+	#subfooter > p{
+		font-size: 0.6em;
+		font-family:'Open+Sans', sans-serif;
+		text-align: center;
+		color:#CDCDCD;
+	}
 }
