@@ -4,12 +4,12 @@
 }
 
 body{
-	background-image: url(img/Fondo.jpg);
-   	background-size: cover; /*imagen proporcionada a la base*/
-   	background-position: center center;
-   	background-repeat: no-repeat;
-   	background-attachment: fixed;
+   	background: url(img/Fondo.jpg) no-repeat center center fixed;
    	background-color: #CDCDCD;
+   	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; /*imagen proporcionada a la base*/
 }
 
 nav {
@@ -204,10 +204,6 @@ h6{
 		margin: auto;
 	}
 
-	body{
-		background-image: url(img/Fondo.jpg);
-}
-
 	h1{ /*Monserrat Torres*/
 		font-family: 'Dosis', sans-serif;
 		font-size:3em;
@@ -303,9 +299,6 @@ h6{
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-body{
-	background-image: url(img/Fondo.jpg);
-}
 	*{
 		margin: auto;
 	}
