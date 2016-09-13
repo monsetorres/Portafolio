@@ -1,9 +1,9 @@
 @media only screen and (orientation: portrait){
 
 	body{
-		background: url(img/fondo2.jpg);
+		background: url(img/fondomovil2.jpg);
 	}
-	
+
 	h1{ /*Monserrat Torres*/
 	font-family: 'Dosis', sans-serif;
 	font-weight:lighter;
