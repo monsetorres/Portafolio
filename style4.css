@@ -281,11 +281,22 @@ h6{
 /*---------------------------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {
+	h2{
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size:2.5em;
+	font-weight:lighter;
+	color: #666666;
+	text-align: center;
+	padding:36px 0 6px 0;
+	display: block;
+	border-bottom: 3px solid #666666;
+	line-height: 48px;}
 
 #descripcion{
-	margin:64px 32px 0 32px;
+	margin:256px 32px 0 32px;
 	display: block;
-	position: relative;
+	position: absolute;
 }
 
 #descripcion p{
@@ -306,27 +317,25 @@ h6{
 }
 
 #imgmedia2{
-	margin-top: 64px;
-	width: 496px;
-	height: 372px;
-	margin-left: 216px;
+	width: 100%;
+	margin:32px 0;
+	padding:auto;
 	position: relative;
-	display: inline-block;
+	display: block;
+	float: none;
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
 .datos{
 	position: relative;
-	display: block;
-	padding: 0;
+	padding:0;
 	color: #666666;
-	width:312px;
-	margin: 0;
+	margin: 0 0 0 32px;
 }
 
 .datos ul {
-	margin: 32px;
+	margin:0;
 }
 
 .datos li{
@@ -364,11 +373,11 @@ h6{
  
 footer{
   display: block;
-  position: absolute;
+  position: relative;
   margin: auto;
   height: 128px;
   width: 100%;
-  margin-top: 32px;
+  margin:928px auto; 
 }
 
 #contacto{
@@ -376,7 +385,7 @@ footer{
   margin:auto;
   padding: 0;
   float: center;
-  position: relative;
+
 }
 
 h6{
@@ -431,4 +440,81 @@ h6{
   text-align: center;
   color:#CDCDCD;
 }
+
+nav {
+  position: relative;
+  width: 100%;
+  margin: -8px auto;
+}
+
+ul.menu {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 32px 0px 32px 0px;
+  border: 0;
+  font-size: 0;
+  text-align: center;
+  border-bottom: 3px double #CDCDCD;
+}
+
+ul.menu ul {
+  list-style: none;
+  display: none;
+}
+
+ul.menu li{
+  display: inline-block;
+  margin: 8px;
+  padding: 4px 0px 4px 0px;
+}
+
+ul.menu li a {
+  font-family:'Open+Sans', sans-serif;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 9px;
+  letter-spacing:0.04em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+ul.menu li:hover a {
+  color: #1BCDBB;
+  border-bottom: 3px solid #1BCDBB;
+}
+
+a:link, a:active{
+  color:#1BCDBB;
+}
+
+body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
+	border-bottom: 3px solid #1BCDBB;
+}
+
+ul.menu li:hover ul {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 8px 0px 8px 0px;
+  border: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+ul.menu li:hover ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family:'Open+Sans', sans-serif;
+  color: #666666; 
+  border:none;
+}
+
+ul.menu li:hover ul li a:hover {
+  	color: #1BCDBB;
+}
+
 }
