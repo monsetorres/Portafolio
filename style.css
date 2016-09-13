@@ -4,7 +4,13 @@
 }
 
 body { 
-  background: url(img/fondo2.jpg) no-repeat center center fixed; 
+  background-image: url(img/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#666666;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -208,11 +214,7 @@ h6{
 @media only screen and (max-width: 768px) {
 
 body { 
-  background: url(img/fondomovil2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url(img/fondomovil2.jpg)
 } 
 
 nav {
