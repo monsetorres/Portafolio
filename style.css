@@ -10,11 +10,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color:#666666;
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 nav {
@@ -214,7 +209,7 @@ h6{
 @media only screen and (max-width: 768px) {
 
 body { 
-  background-image: url(img/fondomoviL2.jpg);
+  background-image:url(img/fondomoviL2.jpg);
 } 
 
 nav {
