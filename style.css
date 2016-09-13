@@ -9,10 +9,10 @@ body{
    	background-repeat: no-repeat;
    	background-attachment: fixed;
    	background-color: #CDCDCD;
-   	background-size: cover;
-   	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 nav {
@@ -208,19 +208,19 @@ h6{
 /*-----------------------------------------------*/
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (orientation: portrait){
 
 	body {
     background-image: url(img/fondomovil2.jpg);
-    background-position: center center;
+   	background-position: center center;
    	background-repeat: no-repeat;
    	background-attachment: fixed;
    	background-color: #CDCDCD;
-   	background-size: cover;
-   	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  	}
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
 
 	h1{ /*Monserrat Torres*/
 	font-family: 'Dosis', sans-serif;

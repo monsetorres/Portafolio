@@ -336,15 +336,15 @@ h3{
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 92px;
-	height: 232px;
+	margin: auto;
+	height: 128px;
 	width: 100%;
-	border-bottom: 1px solid #CDCDCD;
+	margin-top: 96px;
 }
 
 #contacto{
 	width: 248px;
-	margin-right: 140px;
+	margin:-24px 140px 0;
 	float: right;
 }
 
@@ -352,7 +352,7 @@ h6{
 	font-size: 1.2em;
 	font-family: 'Dosis', sans-serif;
 	text-align:left;
-	border-bottom: 1px solid #CDCDCD;
+	border-bottom: 1px solid #666666;
 	color:#666666;
 }
 
@@ -386,15 +386,312 @@ h6{
 }
 
 #subfooter {
+	float: center;
 	position: absolute;
-	height: 64px;
 	width: 100%;
-	padding-top: 264px;
+	margin: 192px 0 0 0;
+	border-top: 1px solid #CDCDCD;
 }
 
 #subfooter > p{
+	padding: 32px;
 	font-size: 0.6em;
 	font-family:'Open+Sans', sans-serif;
 	text-align: center;
 	color:#CDCDCD;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+	h2{
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size:3em;
+	font-weight:lighter;
+	color: #666666;
+	text-align: center;
+	padding:36px 32px 6px 32px;
+	display: block;
+	border-bottom: 3px solid #666666;
+	line-height: 48px;
+	margin: 0;
+}
+
+#imggrandre1{
+	background: url(img/senaletica/gsenaleticamovil.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: auto;
+	margin:64px 0 0 0;
+	display: block;
+	position: relative;
+	width: 80%	
+	height:32%;
+	padding-top:32px;
+}
+
+h3{
+	font-family:'Dosis', sans-serif;
+	font-size: 1.8em;
+	font-weight:normal;
+	border-bottom: 1px solid #666666;
+	text-align:left;
+	color: #666666;
+}
+
+#descripcion{
+	margin-top: 64px;
+	margin:0 32px;
+}
+
+#descripcion p{
+	font-family:'Opens+Sans', sans-serif;
+	color: #666666;
+	font-size: 1em;
+	padding:32px 0;
+	line-height: 1.4em;
+}
+
+#imgmedia{
+	position: relative;
+	margin: 0;
+	display: block;
+	padding: 32px 0 0 0;
+}
+#imgmedia img{
+	width: 80%;
+	padding-left:32px;
+}
+
+.datos{
+	display: block;
+	float: center;
+	margin: auto;
+	color: #666666;
+	width:312px;
+	padding: 0 32px;
+}
+
+.datos ul {
+	margin: 32px 32px 0 32px;
+
+}
+
+.datos li{
+	font-family:'Opens+Sans', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	list-style: none;
+}
+
+.datos span{
+	padding-right: 8px;
+	float: left;
+	font-size: 1em;
+	color:#1BCDBB;
+}
+
+#icon-time{
+	padding-left: 4px;
+	padding-right: 10px;
+}
+
+#icon-next{
+	padding-top: 4px;
+	padding-left: 4px;
+	font-size: 0.8em;
+}
+.datos ul li ul{
+	margin:8px 0px 0 16px;
+}
+
+.datos ul li ul li{
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+
+/* Listado navegable de los pasos constructivos*/
+ 
+.accordion {
+	position: relative;
+    margin:800px 32px auto;
+    display: block;
+
+}
+.accordion ul {
+    list-style:none;
+    margin:32px 32px 0 32px;
+    padding:auto;    
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+	padding: 16px 0 16px 0;
+	margin: 0;
+	text-decoration: none;
+    font-family:'Dosis', sans-serif; 
+    display:block;
+    font-size:1em;
+    color: #666666;
+    cursor:pointer;
+    border-bottom:1px solid #CDCDCD;
+}
+.accordion h4 {
+    font-family: 'Dosis', sans-serif;
+    background:#CDCDCD;
+    color:#FBFCFC;
+    text-align: center;
+    width:64px;
+    margin:auto;
+    float: left;
+}
+
+.accordion label:hover h4{
+    background:#1BCDBB;
+}
+
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    color:#666666;
+}
+.accordion .content {
+    padding:0;
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.accordion p {
+    font-family:'Open+Sans', sans-serif; 
+    font-size: 1em;
+    line-height: 1.4em;
+    color:#666666;
+    margin:32px;
+}
+
+.vertical ul li {
+    margin:0px 0px 16px 0px;
+}
+.vertical ul li label {
+    padding:0px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+	color: #1BCDBB;
+    border-bottom:3px solid #1BCDBB;
+}
+.vertical ul li .content {
+	margin: 0px 0px 0px 92px;
+	padding:0px;
+	background: #CDCDCD;
+    height:0px;
+    border-top:0;
+    transition: all .5s ease-out;
+}
+.vertical [type=checkbox]:checked ~ label ~ .content {
+    height:312px;
+}
+
+.minigaleria{
+	text-align: center;
+	display: inline-block;
+	margin: 0 32px;
+	padding: 32px 0px 32px 0px;
+	border-top:1px solid #FBFCFC;
+	border-bottom:1px solid #FBFCFC;
+}
+
+.minigaleria .columna{
+	padding: 0px 16px 0px 16px;
+	display: inline-block;
+	float: left;	
+	border-right: 1px dashed #FBFCFC;
+	border-left: 1px dashed #FBFCFC;
+}
+
+.minigaleria .columnacentral{
+	padding: 0px 16px 0px 16px;
+	display: inline-block;
+	float: left;	
+}
+
+footer{
+	display: block;
+	position: absolute;
+	margin: auto;
+	height: 128px;
+	width: 100%;
+	margin-top: 160px;
+}
+
+#contacto{
+	width: 248px;
+	margin:auto;
+	padding: 0;
+	float: center;
+	position: relative;
+}
+
+h6{
+	font-size: 0.8em;
+	font-family: 'Dosis', sans-serif;
+	text-align:left;
+	border-bottom: 1px solid #666666;
+	color:#666666;
+}
+
+#contacto ul{
+	margin: 32px 32px 0;
+}
+
+#contacto li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em;
+	color: #666666;
+	line-height: 0.5em;
+}
+
+#contacto span{
+	font-size: 1.5em;
+    line-height: 1.5em;
+    padding-right: 16px;
+}
+
+#icon-mail{
+	font-size: 1.5em;
+    line-height: 1.5em;
+   	margin-left: -6px;
+   	margin-right: -4px;
+}
+
+#icon-at{
+	font-size: 1em;
+}
+
+#subfooter {
+	float: center;
+	position: absolute;
+	width: 100%;
+	margin: 160px 0 0 0;
+	border-top: 1px solid #CDCDCD;
+}
+
+#subfooter > p{
+	padding: 32px;
+	font-size: 0.6em;
+	font-family:'Open+Sans', sans-serif;
+	text-align: center;
+	color:#CDCDCD;
+}
 }
