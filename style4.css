@@ -210,69 +210,224 @@ h4{
 }
 
 footer{
-	display: block;
-	position: absolute;
-	margin-top: 156px;
-	height: 232px;
-	width: 100%;
-	border-bottom: 1px solid #CDCDCD;
+  display: block;
+  position: absolute;
+  margin: auto;
+  height: 128px;
+  width: 100%;
+  margin-top: 96px;
 }
 
 #contacto{
-	width: 248px;
-	margin-right: 140px;
-	float: right;
+  width: 248px;
+  margin:-24px 140px 0;
+  float: right;
 }
 
 h6{
-	font-size: 1.2em;
-	font-family: 'Dosis', sans-serif;
-	text-align:left;
-	border-bottom: 1px solid #CDCDCD;
-	color:#666666;
+  font-size: 1.2em;
+  font-family: 'Dosis', sans-serif;
+  text-align:left;
+  border-bottom: 1px solid #666666;
+  color:#666666;
 }
 
 #contacto ul{
-	margin: 32px 32px 0;
+  margin: 32px 32px 0;
 }
 
 #contacto li{
-	list-style: none;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.8em;
-	color: #666666;
-	line-height: 0.5em;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  color: #666666;
+  line-height: 0.5em;
 }
 
 #contacto span{
-	font-size: 1.5em;
+  font-size: 1.5em;
     line-height: 1.5em;
     padding-right: 16px;
 }
 
 #icon-mail{
-	font-size: 1.5em;
+  font-size: 1.5em;
     line-height: 1.5em;
-   	margin-left: -6px;
-   	margin-right: -4px;
+    margin-left: -6px;
+    margin-right: -4px;
 }
 
 #icon-at{
-	font-size: 1em;
+  font-size: 1em;
 }
 
 #subfooter {
-	position: absolute;
-	height: 64px;
-	width: 100%;
-	padding-top: 264px;
+  float: center;
+  position: absolute;
+  width: 100%;
+  margin: 192px 0 0 0;
+  border-top: 1px solid #CDCDCD;
 }
 
 #subfooter > p{
-	font-size: 0.6em;
-	font-family:'Open+Sans', sans-serif;
-	text-align: center;
-	color:#CDCDCD;
+  padding: 32px;
+  font-size: 0.6em;
+  font-family:'Open+Sans', sans-serif;
+  text-align: center;
+  color:#CDCDCD;
 }
 
 
+/*---------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+#descripcion{
+	margin:64px 32px 0 32px;
+}
+
+#descripcion p{
+	font-family:'Opens+Sans', sans-serif;
+	color: #666666;
+	font-size: 1em;
+	padding:32px 0;
+	line-height: 1.4em;
+	float: none;
+}
+
+#imgmedia{
+	width: 100%;
+	margin:32px 0;
+	padding: 32px auto;
+	position: relative;
+	display: block;
+	float: none;
+}
+
+#imgmedia2{
+	margin-top: 64px;
+	width: 496px;
+	height: 372px;
+	margin-left: 216px;
+	position: relative;
+	display: inline-block;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.datos{
+	position: relative;
+	display: block;
+	padding: 0;
+	color: #666666;
+	width:312px;
+	margin: 0;
+}
+
+.datos ul {
+	margin: 32px;
+}
+
+.datos li{
+	font-family:'Opens+Sans', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	list-style: none;
+}
+
+.datos span{
+	padding-right: 8px;
+	float: left;
+	font-size: 1em;
+	color:#1BCDBB;
+}
+
+#icon-time{
+	padding-left: 4px;
+	padding-right: 10px;
+}
+
+#icon-next{
+	padding-top: 4px;
+	padding-left: 4px;
+	font-size: 0.8em;
+}
+.datos ul li ul{
+	margin:8px 0px 0 16px;
+}
+
+.datos ul li ul li{
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+ 
+footer{
+  display: block;
+  position: absolute;
+  margin: auto;
+  height: 128px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+#contacto{
+  width: 248px;
+  margin:auto;
+  padding: 0;
+  float: center;
+  position: relative;
+}
+
+h6{
+  font-size: 0.8em;
+  font-family: 'Dosis', sans-serif;
+  text-align:left;
+  border-bottom: 1px solid #666666;
+  color:#666666;
+}
+
+#contacto ul{
+  margin: 32px 32px 0;
+}
+
+#contacto li{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.6em;
+  color: #666666;
+  line-height: 0.5em;
+}
+
+#contacto span{
+  font-size: 1.5em;
+    line-height: 1.5em;
+    padding-right: 16px;
+}
+
+#icon-mail{
+  font-size: 1.5em;
+    line-height: 1.5em;
+    margin-left: -6px;
+    margin-right: -4px;
+}
+
+#icon-at{
+  font-size: 1em;
+}
+
+#subfooter {
+  float: center;
+  position: absolute;
+  width: 100%;
+  margin: 160px 0 0 0;
+  border-top: 1px solid #CDCDCD;
+}
+
+#subfooter > p{
+  padding: 32px;
+  font-size: 0.6em;
+  font-family:'Open+Sans', sans-serif;
+  text-align: center;
+  color:#CDCDCD;
+}
+}
