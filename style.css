@@ -212,6 +212,14 @@ h6{
 
 	body {
     background-image: url(img/fondomovil2.jpg);
+    background-position: center center;
+   	background-repeat: no-repeat;
+   	background-attachment: fixed;
+   	background-color: #CDCDCD;
+   	background-size: cover;
+   	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   	}
 
 	h1{ /*Monserrat Torres*/
