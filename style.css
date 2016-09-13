@@ -212,18 +212,6 @@ h6{
 
 @media only screen and (orientation: portrait){
 
-	body {
-    background-image: url(img/fondo2.jpg);
-   	background-position: center center;
-   	background-repeat: no-repeat;
-   	background-color: #CDCDCD;
-    -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-attachment: scroll;
-}
-
 	h1{ /*Monserrat Torres*/
 	font-family: 'Dosis', sans-serif;
 	font-weight:lighter;
