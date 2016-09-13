@@ -284,6 +284,8 @@ h6{
 
 #descripcion{
 	margin:64px 32px 0 32px;
+	display: block;
+	position: relative;
 }
 
 #descripcion p{
@@ -292,7 +294,6 @@ h6{
 	font-size: 1em;
 	padding:32px 0;
 	line-height: 1.4em;
-	float: none;
 }
 
 #imgmedia{
