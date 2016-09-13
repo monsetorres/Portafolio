@@ -213,6 +213,7 @@ h6{
 
 body { 
   background-image:url(img/mback.jpg);
+  background-size: 100%;
 } 
 
 nav {
