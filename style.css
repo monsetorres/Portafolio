@@ -15,7 +15,6 @@ nav {
   position: relative;
   width: 100%;
   margin: -8px auto;
-  background-color: rgba(102, 102, 102,0.6);
 }
 
 ul.menu {
@@ -26,6 +25,7 @@ ul.menu {
   border: 0;
   font-size: 0;
   text-align: center;
+  background-color: rgba(102, 102, 102,0.6);
 }
 
 ul.menu ul {
@@ -62,11 +62,11 @@ ul.menu li ul {
 }
 
 ul.menu ul a {
-  color: #1BCDBB;
+  color: #FBFCFC;
 }
 
 ul.menu li:hover a {
-  color: #1BCDBB;
+  color: #FBFCFC;
   border-bottom: 3px solid #1BCDBB;
 }
 
@@ -84,7 +84,8 @@ ul.menu li:hover ul {
 ul.menu li:hover ul li a {
   text-transform: capitalize;
   text-decoration: none;
-  font-family:'Open+Sans', sans-serif; 
+  font-family:'Open+Sans', sans-serif;
+  color: #FBFCFC; 
   border:none;
 }
 
@@ -95,6 +96,7 @@ ul.menu li:hover ul li a:hover {
 a:link, a:active{
   color:#1BCDBB;
 }
+
 
 body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
   border-bottom: 3px solid #1BCDBB;
@@ -227,7 +229,8 @@ ul.menu {
   border: 0;
   font-size: 0;
   text-align: center;
-  border-bottom: 3px double #FBFCFC;
+  background-color: rgba(102, 102, 102,0.6);
+
 }
 
 ul.menu ul {
@@ -254,16 +257,12 @@ ul.menu li a {
 }
 
 ul.menu li:hover a {
-  color: #1BCDBB;
+  color: #FBFCFC;
   border-bottom: 3px solid #1BCDBB;
 }
 
 a:link, a:active{
   color:#1BCDBB;
-}
-
-body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
-  border-bottom: 3px solid #1BCDBB;
 }
 
 ul.menu li:hover ul {
@@ -287,6 +286,10 @@ ul.menu li:hover ul li a {
 
 ul.menu li:hover ul li a:hover {
     color: #1BCDBB;
+}
+
+body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
+  border-bottom: 3px solid #1BCDBB;
 }
 
   h1{ /*Monserrat Torres*/
