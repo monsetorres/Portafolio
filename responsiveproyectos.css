@@ -1,150 +1,30 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+@media only screen and (max-width: 768px) {
 
-body{
-	background: #FBFCFC;
-}
-
-nav {
-  position: relative;
-  width: 100%;
-  margin: -8px auto;
-}
-
-ul.menu {
-  list-style: none;
-  width: 100%;
-  margin: 0;
-  padding: 32px 0px 32px 0px;
-  border: 0;
-  font-size: 0;
-  text-align: center;
-  border-bottom: 3px double #CDCDCD;
-}
-
-ul.menu ul {
-  list-style: none;
-  display: none;
-}
-
-ul.menu li{
-  display: inline-block;
-  margin: 0 8px 0px 8px;
-  padding: 4px 0px 4px 0px;
-}
-
-ul.menu li a {
-  font-family:'Open+Sans', sans-serif;
-  display: block;
-  margin: 0;
-  padding: 0 4px 4px 4px;
-  text-decoration: none;
-  font-size: 12.5px;
-  letter-spacing:0.06em;
-  text-transform: uppercase;
-  color: #666666;
-}
-
-ul.menu li ul {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  line-height: 0;
-  z-index: 3;
-}
-
-ul.menu ul a {
-  color: #1BCDBB;
-}
-
-ul.menu li:hover a {
-  color: #1BCDBB;
-  border-bottom: 3px solid #1BCDBB;
-}
-
-ul.menu li:hover ul {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 16px 0px 16px 0px;
-  border: 0;
-  font-size: 0;
-  text-align: center;
-}
-
-ul.menu li:hover ul li a {
-  text-transform: capitalize;
-  text-decoration: none;
-  font-family:'Open+Sans', sans-serif;
-  color: #666666; 
-  border:none;
-}
-
-ul.menu li:hover ul li a:hover {
-  	color: #1BCDBB;
-}
-
-a:link, a:active{
-  color:#1BCDBB;
-}
-
-body.inicio a.inicio:link, body.proyecto a.proyecto:link, body.investigaciones a.investigaciones:link, body.formacion a.formacion:link{
-	border-bottom: 3px solid #1BCDBB;
-}
-
-h2{
+	h2{
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
 	font-size:3em;
 	font-weight:lighter;
 	color: #666666;
 	text-align: center;
-	padding-top:32px;
+	padding:36px 32px 6px 32px;
 	display: block;
 	border-bottom: 3px solid #666666;
+	line-height: 48px;
+	margin: 0;
 }
 
 #imggrandre1{
-	background: url(img/senaletica/gsenaletica.jpg);
+	background: url(img/senaletica/gsenaleticamovil.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: auto;
-	display: block;
-	position: relative;	
-	margin:64px 216px 0px 216px;
-	height:448px;
-	padding-top:32px;
-}
-
-#imggrandre2{
-	background: url(img/omegacubix/gomegacubix.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin: auto;
+	margin:64px 0 0 0;
 	display: block;
 	position: relative;
-	margin:64px 216px 0px 216px;
-	height:448px;
-	padding-top:32px;
-}
-
-#imggrandre3{
-	background: url(img/crepare/gcrepare.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin: auto;
-	display: block;
-	position: relative;
-	margin:64px 216px 0px 216px;
-	height:448px;
+	width: 80%	
+	height:32%;
 	padding-top:32px;
 }
 
@@ -159,34 +39,35 @@ h3{
 
 #descripcion{
 	margin-top: 64px;
-	margin-right: 216px;
-	margin-left: 216px;
+	margin:0 32px;
 }
 
 #descripcion p{
 	font-family:'Opens+Sans', sans-serif;
 	color: #666666;
 	font-size: 1em;
-	padding:32px 32px 0px 32px;
+	padding:32px 0;
 	line-height: 1.4em;
 }
 
 #imgmedia{
-	float: left;
-	width: 496px;
-	height: 372px;
-	padding-top: 64px;
-	margin-left: 216px;
+	position: relative;
+	margin: 0;
+	display: block;
+	padding: 32px 0 0 0;
+}
+#imgmedia img{
+	width: 80%;
+	padding-left:32px;
 }
 
 .datos{
-	float: left;
-	margin-top: 56px;
-	margin-left: 92px;
+	display: block;
+	float: center;
+	margin: auto;
 	color: #666666;
 	width:312px;
-	padding: 0;
-	margin-bottom: 32px;
+	padding: 0 32px;
 }
 
 .datos ul {
@@ -230,13 +111,15 @@ h3{
 /* Listado navegable de los pasos constructivos*/
  
 .accordion {
-    margin:512px 216px 32px 216px;
-    padding:0;
+	position: relative;
+    margin:800px 32px auto;
+    display: block;
+
 }
 .accordion ul {
     list-style:none;
     margin:32px 32px 0 32px;
-    padding:0;    
+    padding:auto;    
 }
 .accordion [type=radio], .accordion [type=checkbox] {
     display:none;
@@ -247,7 +130,7 @@ h3{
 	text-decoration: none;
     font-family:'Dosis', sans-serif; 
     display:block;
-    font-size:1.4em;
+    font-size:1em;
     color: #666666;
     cursor:pointer;
     border-bottom:1px solid #CDCDCD;
@@ -257,7 +140,7 @@ h3{
     background:#CDCDCD;
     color:#FBFCFC;
     text-align: center;
-    width:92px;
+    width:64px;
     margin:auto;
     float: left;
 }
@@ -331,25 +214,25 @@ h3{
 	float: left;	
 }
 
-/* TERMINO del Listado navegable de los pasos constructivos*/
-
 footer{
 	display: block;
 	position: absolute;
 	margin: auto;
 	height: 128px;
 	width: 100%;
-	margin-top: 96px;
+	margin-top: 160px;
 }
 
 #contacto{
 	width: 248px;
-	margin:-24px 140px 0;
-	float: right;
+	margin:auto;
+	padding: 0;
+	float: center;
+	position: relative;
 }
 
 h6{
-	font-size: 1.2em;
+	font-size: 0.8em;
 	font-family: 'Dosis', sans-serif;
 	text-align:left;
 	border-bottom: 1px solid #666666;
@@ -363,7 +246,7 @@ h6{
 #contacto li{
 	list-style: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.8em;
+	font-size: 0.6em;
 	color: #666666;
 	line-height: 0.5em;
 }
@@ -389,7 +272,7 @@ h6{
 	float: center;
 	position: absolute;
 	width: 100%;
-	margin: 192px 0 0 0;
+	margin: 160px 0 0 0;
 	border-top: 1px solid #CDCDCD;
 }
 
@@ -400,12 +283,4 @@ h6{
 	text-align: center;
 	color:#CDCDCD;
 }
-
-
-
-
-
-
-
-/*---------------------------------------------------------------------*/
-
+}
