@@ -1,5 +1,11 @@
 @media only screen and (orientation: portrait){
 
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 	h1{ /*Monserrat Torres*/
 	font-family: 'Dosis', sans-serif;
