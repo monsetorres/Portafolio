@@ -194,7 +194,7 @@ a{
 	color: #666666;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 	#galeria{
 		margin: 32px 92px 0 92px;

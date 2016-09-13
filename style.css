@@ -4,12 +4,15 @@
 }
 
 body{
-   	background: url(img/Fondo.jpg) no-repeat center center fixed;
+   	background: url(img/fondo2.jpg);
+   	background-position: center center;
+   	background-repeat: no-repeat;
+   	background-attachment: fixed;
    	background-color: #CDCDCD;
+   	background-size: cover;
    	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; /*imagen proporcionada a la base*/
 }
 
 nav {
@@ -26,7 +29,7 @@ ul.menu {
   border: 0;
   font-size: 0;
   text-align: center;
-  background-color: rgba(102, 102, 102,0.6);
+  background-color: rgba(102, 102, 102,0.65);
 }
 
 ul.menu ul {
@@ -110,11 +113,16 @@ h1{ /*Monserrat Torres*/
 	color: #FBFCFC;
 	line-height: 1em;
 	text-align: center;
-	margin-top: 224px;
-	margin-left: 248px;
-	margin-right: 248px;
-	padding-bottom: 8px;
-	border-bottom: 3px solid #FBFCFC;
+	margin: 224px 0 -224px 0;
+	padding: 0;
+}
+
+hr{
+	background:#FBFCFC;
+	height: 3px;
+	width:80%;
+	margin: 224px auto -224px auto;
+	border: none;
 }
 
 h3{ /*Diseñadora Gráfica*/
@@ -124,21 +132,21 @@ h3{ /*Diseñadora Gráfica*/
 	letter-spacing:0.1em;
 	color: #FBFCFC;
 	text-align: center;
-	margin-top: 8px;
+	margin: 228px 0;
+	padding: 0;
 }
 
 footer{
 	display: block;
 	position: absolute;
-	margin-top: 192px;
-	height: 232px;
+	margin: auto;
+	height: 128px;
 	width: 100%;
-	border-bottom: 1px solid #FBFCFC;
 }
 
 #contacto{
 	width: 248px;
-	margin-right: 140px;
+	margin:-24px 140px 0;
 	float: right;
 }
 
@@ -180,13 +188,15 @@ h6{
 }
 
 #subfooter {
+	float: center;
 	position: absolute;
-	height: 64px;
 	width: 100%;
-	padding-top: 264px;
+	margin: 192px 0 0 0;
+	border-top: 1px solid #FBFCFC;
 }
 
 #subfooter > p{
+	padding: 32px;
 	font-size: 0.6em;
 	font-family:'Open+Sans', sans-serif;
 	text-align: center;
@@ -198,195 +208,109 @@ h6{
 /*-----------------------------------------------*/
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
-	*{
-		margin: auto;
-	}
+	body {
+    background-image: url(img/fondomovil2.jpg);
+  	}
 
 	h1{ /*Monserrat Torres*/
-		font-family: 'Dosis', sans-serif;
-		font-size:3em;
-		font-weight:lighter;
-		line-height: 1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-		margin: 348px 92px 0 92px;
-		border-bottom: 3px solid #FBFCFC;
-	}
+	font-family: 'Dosis', sans-serif;
+	font-weight:lighter;
+	font-size:2.5em;
+	letter-spacing:0.1em;
+	color: #FBFCFC;
+	line-height: 1em;
+	text-align: center;
+	margin: 96px 0 -96px 0;
+	padding: 0;
+}
 
-	h3{ /*Diseñadora Gráfica*/
-		font-family: 'Dosis', sans-serif;
-		font-weight:bold;
-		font-size:1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-	}
+hr{
+	background:#FBFCFC;
+	height: 3px;
+	width:80%;
+	margin: 96px auto -96px auto;
+	border: none;
+}
 
-	footer{
+h3{ /*Diseñadora Gráfica*/
+	font-family: 'Dosis', sans-serif;
+	font-weight:bold;
+	font-size:1em;
+	letter-spacing:0.1em;
+	color: #FBFCFC;
+	text-align: center;
+	margin: 100px auto;
+}
+
+footer{
 	display: block;
 	position: absolute;
-	margin: 272px 0;
-	height: 232px;
+	margin: auto;
+	height: 128px;
 	width: 100%;
-	border-bottom: 1px solid #CDCDCD;
-	}
+}
 
-	#contacto{
-		width: 248px;
-		margin-right: 92px;
-		float: right;
-	}
+#contacto{
+	width: 248px;
+	margin:auto;
+	padding: 0;
+	float: center;
+	position: relative;
+}
 
-	h6{
-		font-size: 1em;
-		font-family: 'Dosis', sans-serif;
-		text-align:left;
-		border-bottom: 1px solid #FBFCFC;
-		color:#FBFCFC;
-	}
+h6{
+	font-size: 0.8em;
+	font-family: 'Dosis', sans-serif;
+	text-align:left;
+	border-bottom: 1px solid #FBFCFC;
+	color:#FBFCFC;
+}
 
-	#contacto ul{
-		margin: 32px 32px 0;
-	}
+#contacto ul{
+	margin: 32px 32px 0;
+}
 
-	#contacto li{
-		list-style: none;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 0.6em;
-		color: #FBFCFC;
-	}
+#contacto li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em;
+	color: #FBFCFC;
+	line-height: 0.5em;
+}
 
-	#contacto span{
-		font-size: 1.5em;
-    	line-height: 1.5em;
-    	padding-right: 16px;
-	}
+#contacto span{
+	font-size: 1.5em;
+    line-height: 1.5em;
+    padding-right: 16px;
+}
 
-	#icon-mail{
-		font-size: 1.5em;
-    	line-height: 1.5em;
-   		margin-left: -4px;
-   		margin-right: -4px;
-	}
+#icon-mail{
+	font-size: 1.5em;
+    line-height: 1.5em;
+   	margin-left: -6px;
+   	margin-right: -4px;
+}
 
-	#icon-at{
-		font-size: 1em;
-	}
+#icon-at{
+	font-size: 1em;
+}
 
-	#subfooter {
-		position: absolute;
-		height: 64px;
-		width: 100%;
-		padding-top: 264px;
-	}
+#subfooter {
+	float: center;
+	position: absolute;
+	width: 100%;
+	margin: 192px 0 0 0;
+	border-top: 1px solid #FBFCFC;
+}
 
-	#subfooter > p{
-		font-size: 0.6em;
-		font-family:'Open+Sans', sans-serif;
-		text-align: center;
-		color:#CDCDCD;
-	}
+#subfooter > p{
+	padding: 32px;
+	font-size: 0.6em;
+	font-family:'Open+Sans', sans-serif;
+	text-align: center;
+	color:#FBFCFC;
 }
 
 
-
-/*-----------------------------------------------*/
-
-
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-
-	*{
-		margin: auto;
-	}
-
-	h1{ /*Monserrat Torres*/
-		font-family: 'Dosis', sans-serif;
-		font-size:2.5em;
-		font-weight:lighter;
-		line-height: 1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-		margin: 128px 32px;
-		border-bottom: 3px solid #FBFCFC;
-	}
-
-	h3{ /*Diseñadora Gráfica*/
-		font-family: 'Dosis', sans-serif;
-		font-weight:bold;
-		font-size:1em;
-		letter-spacing:0.1em;
-		color: #FBFCFC;
-		text-align: center;
-		margin:-120px;
-	}
-
-	footer{
-	display: block;
-	position: absolute;
-	margin: 272px 0;
-	height: 232px;
-	width: 100%;
-	border-bottom: 1px solid #CDCDCD;
-	}
-
-	#contacto{
-		width: 248px;
-		margin:auto;
-		float: right;
-	}
-
-	h6{
-		font-size: 1em;
-		font-family: 'Dosis', sans-serif;
-		text-align:left;
-		border-bottom: 1px solid #FBFCFC;
-		color:#FBFCFC;
-	}
-
-	#contacto ul{
-		margin: 32px 32px 0;
-	}
-
-	#contacto li{
-		list-style: none;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 0.6em;
-		color: #FBFCFC;
-	}
-
-	#contacto span{
-		font-size: 1.5em;
-    	line-height: 1.5em;
-    	padding-right: 16px;
-	}
-
-	#icon-mail{
-		font-size: 1.5em;
-    	line-height: 1.5em;
-   		margin-left: -4px;
-   		margin-right: -4px;
-	}
-
-	#icon-at{
-		font-size: 1em;
-	}
-
-	#subfooter {
-		position: absolute;
-		height: 64px;
-		width: 100%;
-		padding-top: 264px;
-	}
-
-	#subfooter > p{
-		font-size: 0.6em;
-		font-family:'Open+Sans', sans-serif;
-		text-align: center;
-		color:#CDCDCD;
-	}
-}
