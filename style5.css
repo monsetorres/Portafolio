@@ -449,5 +449,116 @@ ul.menu li:hover ul li a:hover {
     color: #1BCDBB;
 }
 
+h3{
+  font-family:'Dosis', sans-serif;
+  font-size: 1.8em;
+  font-weight:normal;
+  border-bottom: 1px solid #666666;
+  text-align:left;
+  color: #666666;
+  margin:64px 32px;
+}
+/* Listado navegable*/
+
+.accordion {
+    margin:32px 744px 32px 32px;
+    padding:0;
+}
+.accordion ul {
+    list-style:none;
+    margin:auto;
+    padding:0;    
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+  padding: 16px 0 16px 0;
+  margin: 0;
+  text-decoration: none;
+    font-family:'Dosis', sans-serif; 
+    display:block;
+    font-size:1.4em;
+    color: #666666;
+    cursor:pointer;
+    border-bottom:1px solid #CDCDCD;
+}
+
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    color:#666666;
+}
+.accordion .content {
+    padding:0;
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+
+.vertical ul li {
+    margin:0px 0px 16px 0px;
+}
+.vertical ul li label {
+    padding:0px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+  color: #1BCDBB;
+    border-bottom:3px solid #1BCDBB;
+}
+.vertical ul li .content {
+  margin: 0;
+  padding:0px;
+    height:0px;
+    border-top:0;
+    transition: all .5s ease-out;
+}
+.vertical [type=checkbox]:checked ~ label ~ .content {
+    height:280px;
+}
+
+.minigaleria{
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border-top:1px solid #CDCDCD;
+  border-bottom:1px solid #CDCDCD;
+}
+
+.minigaleria .imgi{
+  padding:0;
+  display: inline-block;
+  float: left;  
+  border-right: 1px dashed #CDCDCD;
+  border-left: 1px dashed #CDCDCD;
+}
+
+.minigaleria .imgd{
+  margin:0;
+  padding:0;
+  display: inline-block;
+  float: left;
+  border-right: 1px dashed #CDCDCD;
+}
+
+/* TERMINO del Listado navegable*/
+
+.zoomsdi{
+  display: block;
+  margin: -184px 0 0 0;
+  padding:0;
+  float: center;
+  list-style: none;
+  height: 600px;
+  overflow-y: hidden;
+}
+
+.timg li{
+  margin: 216px 0;
+  padding:216px 0;
+  line-height: 216px;
+}
 
 }

@@ -1,6 +1,5 @@
-@media only screen and (orientation: portrait){
-
-	nav {
+@media only screen and (max-width: 768px) {
+nav {
   position: relative;
   width: 100%;
   margin: -8px auto;
@@ -80,14 +79,14 @@ ul.menu li:hover ul li a:hover {
 	h2{
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
-	font-size:3em;
+	font-size:2em;
 	font-weight:lighter;
 	color: #666666;
 	text-align: center;
 	padding:36px 0 0 0;
 	display: block;
 	border-bottom: 3px solid #666666;
-	line-height: 48px;
+	line-height: 32px;
 	margin: 0;
 }
 
@@ -95,12 +94,29 @@ ul.menu li:hover ul li a:hover {
 	background: url(img/senaletica/rsenaletica.jpg);
 	width: 100%;
 	background-repeat: no-repeat;
-	margin:64px 0 0 0 ;
+	margin:64px 0 0 0;
 	display: block;
 	position: relative;
 	padding-top:32px;
 }
-
+#imggrandre2{
+	background: url(img/senaletica/rsenaletica.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	margin:64px 0 0 0;
+	display: block;
+	position: relative;
+	padding-top:32px;
+}
+#imggrandre3{
+	background: url(img/senaletica/rsenaletica.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	margin:64px 0 0 0;
+	display: block;
+	position: relative;
+	padding-top:32px;
+}
 h3{
 	font-family:'Dosis', sans-serif;
 	font-size: 1.8em;
@@ -124,12 +140,15 @@ h3{
 
 #imgmedia{
 	position: relative;
-	margin: 0;
+	margin: auto;
 	display: block;
-	padding: 32px 0 0 0;
+	padding: auto;
+	width: 100%;
 }
+
 #imgmedia img{
-	width: 80%;
+	width: 90%;
+	height: 90%;
 	padding-left:32px;
 	margin: 0;
 }
