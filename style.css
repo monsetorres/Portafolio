@@ -1,9 +1,9 @@
 *{
-	 margin: 0;
-     padding: 0;
+	margin: 0;
+  padding: 0;
 }
 
-html { 
+body { 
   background: url(img/fondo2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,6 +15,7 @@ nav {
   position: relative;
   width: 100%;
   margin: -8px auto;
+  background-color: rgba(102, 102, 102,0.6);
 }
 
 ul.menu {
@@ -25,7 +26,6 @@ ul.menu {
   border: 0;
   font-size: 0;
   text-align: center;
-  border-bottom: 3px double #FBFCFC;
 }
 
 ul.menu ul {
@@ -48,7 +48,7 @@ ul.menu li a {
   font-size: 12.5px;
   letter-spacing:0.06em;
   text-transform: uppercase;
-  color: #666666;
+  color: #FBFCFC;
 }
 
 ul.menu li ul {
@@ -84,8 +84,7 @@ ul.menu li:hover ul {
 ul.menu li:hover ul li a {
   text-transform: capitalize;
   text-decoration: none;
-  font-family:'Open+Sans', sans-serif;
-  color: #FBFCFC; 
+  font-family:'Open+Sans', sans-serif; 
   border:none;
 }
 
@@ -206,7 +205,7 @@ h6{
 
 @media only screen and (max-width: 768px) {
 
-html { 
+body { 
   background: url(img/fondomovil2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -388,5 +387,6 @@ h6{
   text-align: center;
   color:#FBFCFC;
 }
+
 }
 
